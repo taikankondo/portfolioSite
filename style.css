@@ -1,0 +1,263 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*ここから*/
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(82, 79, 79);
+    cursor: pointer;
+}
+
+a:hover{
+    color:rgb(230, 169, 4)
+}
+
+ul{
+    display: flex;
+    align-items:center;
+}
+
+li{
+    list-style: none;
+    font-size:14px;
+    padding:30px;
+}
+
+body{
+    color:rgb(82, 79, 79);
+    font-size: 18px;
+    width:100%;
+}
+
+/*ヘッダー部分*/
+.header{
+    display: flex;
+    background-color: #fff;
+    width:100%;
+    padding:30px 0 20px 0;
+    top:0;
+    align-items:center;
+}
+
+.title{
+    float:left;
+    font-size: 20px;
+    margin:0;
+    padding:0;
+    padding-left:10px;
+    letter-spacing: 4px;
+}
+
+.header-nav{
+    margin: 0 0 0 auto;
+}
+
+
+
+/*プロフィール*/
+
+
+.profile{
+    width:100%;
+    margin:0 auto;
+    padding-top:60px;
+    justify-content: center;
+    padding-bottom:100px;
+    text-align: center;
+}
+
+.profile-title{
+    text-align: center;
+    padding:80px 0 20px 0;
+    font-size:20px;
+    font-weight: 100;
+    letter-spacing:3px;
+}
+
+.profile-logo {
+    margin-bottom:15px;
+}
+
+.profile-text{
+    width: 50%;
+    margin:0 auto;
+}
+
+.profile-text h2{
+    padding-bottom:20px;
+}
+
+.profile-text p{
+    line-height: 2;
+}
+
+/*作品集*/
+.works{
+    width:100%;
+    margin:0 auto;
+    padding-top:80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.works p{
+    padding:10px;
+}
+
+.works-title{
+    text-align: center;
+    padding-top:50px;
+    font-size:20px;
+    font-weight: 100;
+    letter-spacing:3px;
+}
+
+.work-img{
+    opacity: 0.6;
+    width:50%;
+    border: 1px solid;
+    margin:30px 0;
+}
+
+
+.work-img:hover{
+    opacity: 1;
+}
+
+.work p{
+    padding: 10px;
+}
+
+/*お問い合わせ*/
+.contact-title{
+    text-align: center;
+    padding-top:100px;
+    font-size:20px;
+    font-weight: 100;
+    letter-spacing:3px;
+}
+
+.contact-text{
+    text-align: center;
+    padding-top:80px;
+}
+
+.contact-menu{
+    text-align: center;
+    font-size:30px;
+}
+
+.fa-brands{
+    padding:50px 5px 40px 5px;
+}
+
+.contact-menu a{
+    opacity:0.6;
+}
+
+.contact-menu a:hover{
+    opacity: 1;
+}
+
+.footer{
+    padding-bottom:20px;
+}
